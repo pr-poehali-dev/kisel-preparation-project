@@ -40,7 +40,7 @@ const kisselData: Kissel[] = [
     name: 'Вишнёвый кисель',
     description: 'Классический вишнёвый вкус',
     price: 230,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/b1311843-be43-4236-8040-239a694d5c42.jpg',
     type: 'ягодный',
     ingredients: ['вишня']
   },
@@ -49,7 +49,7 @@ const kisselData: Kissel[] = [
     name: 'Яблочный кисель',
     description: 'Свежий яблочный аромат',
     price: 200,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/bedef42f-3c89-42d0-b75e-853141d02d79.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/ed9cd483-83e0-4d75-822e-e3e47ffe5f7b.jpg',
     type: 'фруктовый',
     ingredients: ['яблоко', 'корица']
   },
@@ -58,7 +58,7 @@ const kisselData: Kissel[] = [
     name: 'Смородиновый кисель',
     description: 'Яркий вкус чёрной смородины',
     price: 240,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
     type: 'ягодный',
     ingredients: ['смородина']
   },
@@ -67,20 +67,74 @@ const kisselData: Kissel[] = [
     name: 'Клюквенный кисель',
     description: 'Полезный клюквенный напиток',
     price: 260,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/f82e0523-5aba-4fd1-b06d-3c34b7c17505.jpg',
     type: 'ягодный',
     ingredients: ['клюква']
+  },
+  {
+    id: 7,
+    name: 'Малиновый кисель',
+    description: 'Сладкий аромат спелой малины',
+    price: 270,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    type: 'ягодный',
+    ingredients: ['малина']
+  },
+  {
+    id: 8,
+    name: 'Грушевый кисель',
+    description: 'Мягкий вкус сочной груши',
+    price: 210,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/bedef42f-3c89-42d0-b75e-853141d02d79.jpg',
+    type: 'фруктовый',
+    ingredients: ['груша', 'ваниль']
+  },
+  {
+    id: 9,
+    name: 'Клубничный кисель',
+    description: 'Нежный вкус садовой клубники',
+    price: 255,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6d0ab6f3-f1c5-4a9b-b25f-39449481dabc.jpg',
+    type: 'ягодный',
+    ingredients: ['клубника']
+  },
+  {
+    id: 10,
+    name: 'Абрикосовый кисель',
+    description: 'Солнечный абрикосовый вкус',
+    price: 225,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/de85e4cd-1f40-458d-9381-690946984add.jpg',
+    type: 'фруктовый',
+    ingredients: ['абрикос']
+  },
+  {
+    id: 11,
+    name: 'Ежевичный кисель',
+    description: 'Терпкий вкус лесной ежевики',
+    price: 265,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
+    type: 'ягодный',
+    ingredients: ['ежевика']
+  },
+  {
+    id: 12,
+    name: 'Сливовый кисель',
+    description: 'Богатый вкус спелой сливы',
+    price: 235,
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
+    type: 'фруктовый',
+    ingredients: ['слива']
   }
 ];
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState<'home' | 'catalog' | 'about'>('home');
-  const [priceRange, setPriceRange] = useState([200, 300]);
+  const [priceRange, setPriceRange] = useState([190, 280]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
 
   const allTypes = ['ягодный', 'фруктовый'];
-  const allIngredients = ['клубника', 'черника', 'малина', 'персик', 'вишня', 'яблоко', 'корица', 'смородина', 'клюква'];
+  const allIngredients = ['клубника', 'черника', 'малина', 'персик', 'вишня', 'яблоко', 'корица', 'смородина', 'клюква', 'груша', 'ваниль', 'абрикос', 'ежевика', 'слива'];
 
   const filteredKissel = kisselData.filter(kissel => {
     const priceMatch = kissel.price >= priceRange[0] && kissel.price <= priceRange[1];
@@ -259,7 +313,7 @@ const Index = () => {
                     onClick={() => {
                       setSelectedTypes([]);
                       setSelectedIngredients([]);
-                      setPriceRange([200, 300]);
+                      setPriceRange([190, 280]);
                     }}
                   >
                     Сбросить фильтры
