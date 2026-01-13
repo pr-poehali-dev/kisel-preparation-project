@@ -151,7 +151,7 @@ const Index = () => {
             </div>
             <div className="animate-float">
               <img 
-                src="https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/79c021c7-a37f-4e4c-837c-2fef82ebc8bd.jpg"
+                src="https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/fbb591dc-92ce-4e39-8074-fd3e1a1f4c13.jpg"
                 alt="Аниме персонаж"
                 className="w-full h-auto rounded-3xl shadow-2xl"
               />
