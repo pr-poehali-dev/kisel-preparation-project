@@ -22,7 +22,7 @@ const kisselData: Kissel[] = [
     name: 'Ягодный кисель',
     description: 'Насыщенный вкус лесных ягод',
     price: 250,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/9d9c35bf-d20b-441e-8a69-729f1532c365.jpg',
     type: 'ягодный',
     ingredients: ['клубника', 'черника', 'малина']
   },
@@ -31,7 +31,7 @@ const kisselData: Kissel[] = [
     name: 'Персиковый кисель',
     description: 'Нежный персиковый вкус',
     price: 220,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/bedef42f-3c89-42d0-b75e-853141d02d79.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/1ad724a5-a4e5-49a1-9ee1-e291be6c2114.jpg',
     type: 'фруктовый',
     ingredients: ['персик']
   },
@@ -40,7 +40,7 @@ const kisselData: Kissel[] = [
     name: 'Вишнёвый кисель',
     description: 'Классический вишнёвый вкус',
     price: 230,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/b1311843-be43-4236-8040-239a694d5c42.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/bdcd8390-3321-4490-853e-acbdbe49ebe7.jpg',
     type: 'ягодный',
     ingredients: ['вишня']
   },
@@ -49,7 +49,7 @@ const kisselData: Kissel[] = [
     name: 'Яблочный кисель',
     description: 'Свежий яблочный аромат',
     price: 200,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/ed9cd483-83e0-4d75-822e-e3e47ffe5f7b.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/4a1f3b94-bc04-4d42-a093-55a02e818888.jpg',
     type: 'фруктовый',
     ingredients: ['яблоко', 'корица']
   },
@@ -58,7 +58,7 @@ const kisselData: Kissel[] = [
     name: 'Смородиновый кисель',
     description: 'Яркий вкус чёрной смородины',
     price: 240,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/59ba2b79-7b4c-452e-8c17-0fa2e973425b.jpg',
     type: 'ягодный',
     ingredients: ['смородина']
   },
@@ -67,7 +67,7 @@ const kisselData: Kissel[] = [
     name: 'Клюквенный кисель',
     description: 'Полезный клюквенный напиток',
     price: 260,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/f82e0523-5aba-4fd1-b06d-3c34b7c17505.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/034e1b82-a447-4cf8-ac46-dcc7a8caeec7.jpg',
     type: 'ягодный',
     ingredients: ['клюква']
   },
@@ -76,7 +76,7 @@ const kisselData: Kissel[] = [
     name: 'Малиновый кисель',
     description: 'Сладкий аромат спелой малины',
     price: 270,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6e8b1746-3642-42c8-942c-e585a5ed1062.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/5fccc48e-1078-463e-b32b-4feedcf026e6.jpg',
     type: 'ягодный',
     ingredients: ['малина']
   },
@@ -85,7 +85,7 @@ const kisselData: Kissel[] = [
     name: 'Грушевый кисель',
     description: 'Мягкий вкус сочной груши',
     price: 210,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/bedef42f-3c89-42d0-b75e-853141d02d79.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/214bf664-eb75-42fd-bc99-bec648fa3979.jpg',
     type: 'фруктовый',
     ingredients: ['груша', 'ваниль']
   },
@@ -94,7 +94,7 @@ const kisselData: Kissel[] = [
     name: 'Клубничный кисель',
     description: 'Нежный вкус садовой клубники',
     price: 255,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/6d0ab6f3-f1c5-4a9b-b25f-39449481dabc.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/9d9c35bf-d20b-441e-8a69-729f1532c365.jpg',
     type: 'ягодный',
     ingredients: ['клубника']
   },
@@ -103,7 +103,7 @@ const kisselData: Kissel[] = [
     name: 'Абрикосовый кисель',
     description: 'Солнечный абрикосовый вкус',
     price: 225,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/de85e4cd-1f40-458d-9381-690946984add.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/8826d0c4-3043-48f2-bf93-a0f13065c9cb.jpg',
     type: 'фруктовый',
     ingredients: ['абрикос']
   },
@@ -112,7 +112,7 @@ const kisselData: Kissel[] = [
     name: 'Ежевичный кисель',
     description: 'Терпкий вкус лесной ежевики',
     price: 265,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/57910946-281f-4131-a002-a24aa09b760a.jpg',
     type: 'ягодный',
     ingredients: ['ежевика']
   },
@@ -121,7 +121,7 @@ const kisselData: Kissel[] = [
     name: 'Сливовый кисель',
     description: 'Богатый вкус спелой сливы',
     price: 235,
-    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/055b3eb0-611d-40d5-b2cf-a8c905130f50.jpg',
+    image: 'https://cdn.poehali.dev/projects/c163488e-453c-4e73-942d-53c02805ee45/files/2a7728bd-0803-4d39-b58d-de5cccbb0f1c.jpg',
     type: 'фруктовый',
     ingredients: ['слива']
   }
@@ -330,7 +330,7 @@ const Index = () => {
                       <img 
                         src={kissel.image} 
                         alt={kissel.name}
-                        className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                        className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300"
                       />
                     </div>
                     <CardHeader>
